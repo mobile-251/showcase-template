@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bài Tập Lớn - Hệ Thống Quản Lý Sinh Viên</title>
+  <title>Bài Tập Lớn - Hệ Thống Đặt sân Bóng Đá</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -11,25 +11,25 @@
 <body class="bg-gray-50 text-gray-800">
   <!-- Header -->
   <header class="bg-indigo-600 text-white text-center py-10">
-    <h1 class="text-4xl font-bold">🧩 Hệ Thống Quản Lý Sinh Viên</h1>
+    <h1 class="text-4xl font-bold">⚽ Hệ Thống Đặt sân Bóng Đá</h1>
     <p class="mt-2 text-lg">Bài tập lớn nhóm - Nộp qua GitHub Pages</p>
   </header>
 
   <!-- Mô tả dự án -->
   <section class="max-w-5xl mx-auto p-6 bg-white mt-10 rounded-xl shadow" data-aos="fade-up">
     <h2 class="text-2xl font-bold text-indigo-700 mb-4">📘 Thông Tin Dự Án</h2>
-    <p><strong>Tên dự án:</strong> Hệ Thống Quản Lý Sinh Viên</p>
-    <p class="mt-2"><strong>Mô tả vấn đề:</strong> Ứng dụng hỗ trợ giảng viên và sinh viên quản lý thông tin học tập, điểm số và lịch học một cách hiệu quả, thay thế phương thức quản lý thủ công bằng Excel.</p>
+    <p><strong>Tên dự án:</strong> Hệ Thống Đặt sân Bóng Đá</p>
+    <p class="mt-2"><strong>Mô tả vấn đề:</strong> BallMate là ứng dụng di động giúp người chơi bóng đá phong trào tại phường Hố Nai dễ dàng tìm kiếm, so sánh và đặt sân bóng gần nhất chỉ trong vài thao tác.</p>
   </section>
 
   <!-- Tính năng chính -->
   <section class="max-w-5xl mx-auto p-6 bg-white mt-6 rounded-xl shadow" data-aos="fade-up">
     <h2 class="text-2xl font-bold text-indigo-700 mb-4">✨ Tính Năng Chính</h2>
     <ul class="list-disc list-inside space-y-2">
-      <li>👤 Quản lý sinh viên, giảng viên, lớp học</li>
-      <li>🗓️ Xem và đăng ký lịch học</li>
-      <li>📊 Thống kê điểm, xếp hạng</li>
       <li>🔐 Đăng nhập, phân quyền người dùng</li>
+      <li>👤 Tìm kiếm & xem danh sách sân</li>
+      <li>🗓️ Đặt sân & xác nhận</li>
+      <li>📊 Quản lý sân của chủ sân</li>
     </ul>
   </section>
 
@@ -45,9 +45,9 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td class="py-2 px-4">🐍 Python / Django</td><td class="py-2 px-4">Xây dựng backend, xử lý logic</td></tr>
-          <tr><td class="py-2 px-4">💾 PostgreSQL</td><td class="py-2 px-4">Cơ sở dữ liệu chính</td></tr>
-          <tr><td class="py-2 px-4">⚛️ ReactJS</td><td class="py-2 px-4">Xây dựng giao diện người dùng</td></tr>
+          <tr><td class="py-2 px-4">🐍 NestJs</td><td class="py-2 px-4">Xây dựng backend, xử lý logic</td></tr>
+          <tr><td class="py-2 px-4">💾 MySQL</td><td class="py-2 px-4">Cơ sở dữ liệu chính</td></tr>
+          <tr><td class="py-2 px-4">⚛️ React Native & Expo</td><td class="py-2 px-4">Xây dựng giao diện người dùng</td></tr>
           <tr><td class="py-2 px-4">🐳 Docker</td><td class="py-2 px-4">Triển khai môi trường linh hoạt</td></tr>
         </tbody>
       </table>
@@ -72,9 +72,10 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td class="py-2 px-4">Nguyễn Văn A</td><td class="py-2 px-4">Backend Developer</td><td class="py-2 px-4">a@example.com</td></tr>
-        <tr><td class="py-2 px-4">Trần Thị B</td><td class="py-2 px-4">Frontend Developer</td><td class="py-2 px-4">b@example.com</td></tr>
-        <tr><td class="py-2 px-4">Lê Văn C</td><td class="py-2 px-4">Tester</td><td class="py-2 px-4">c@example.com</td></tr>
+        <tr><td class="py-2 px-4">Từ Văn Nguyễn Anh Quân</td><td class="py-2 px-4">Project Manager</td><td class="py-2 px-4">quan.tuvannganh@hcmut.edu.vn</td></tr>
+        <tr><td class="py-2 px-4">Đoàn Ngọc Văn Quý</td><td class="py-2 px-4">Backend Developer</td><td class="py-2 px-4">quy.doan0316@hcmut.edu.vn</td></tr>
+        <tr><td class="py-2 px-4">Nguyễn Minh Quân</td><td class="py-2 px-4">Fullstack Developer</td><td class="py-2 px-4">quan.nguyenminh1610@hcmut.edu.vn</td></tr>
+        <tr><td class="py-2 px-4">Trương Công Đẳng</td><td class="py-2 px-4">Frontend Developer</td><td class="py-2 px-4">congdangtruong952@gmail.com</td></tr>
       </tbody>
     </table>
   </section>
@@ -90,7 +91,7 @@
 
   <!-- Footer -->
   <footer class="text-center py-6 text-gray-600 mt-10">
-    © 2025 Nhóm 1 - Hệ Thống Quản Lý Sinh Viên
+    © 2025 Nhóm 6 - Hệ Thống Đặt sân Bóng Đá
   </footer>
 
   <script>
